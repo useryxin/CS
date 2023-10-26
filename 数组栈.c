@@ -8,18 +8,18 @@ typedef int DataType;                                        //定义 数据域�
 
 typedef struct
 { 
-	DataType stack[MaxStackSize];                             // 定义一个 结构体数组
-	int top;                                                  // 定义 栈顶 的高度
+	DataType stack[MaxStackSize];                       // 定义一个 结构体数组
+	int top;                                            // 定义 栈顶 的高度
 }SeqStack;
 
 
-void StackInit(SeqStack *S)                                // 初始化, 栈高度为0
+void StackInit(SeqStack *S)                                 // 初始化, 栈高度为0
 {
 	S->top = 0;
 }
 
 
-int StackIsEmpty(SeqStack *S)                               // 判断是否 栈空
+int StackIsEmpty(SeqStack *S)                                // 判断是否 栈空
 {
 	if (S->top <= 0)
       {
@@ -35,15 +35,15 @@ int StackIsEmpty(SeqStack *S)                               // 判断是否 栈�
 
 int StackPush(SeqStack *S, DataType x)                       // 入栈
 {
-	if (S->top >= MaxStackSize)                                // 判断 栈的高度>=宏定义 的 最大容纳
+	if (S->top >= MaxStackSize)                          // 判断 栈的高度>=宏定义 的 最大容纳
 	{	
             printf("栈满，无法进栈！！！\n");
 		return ERROR;
 	}
 	else
 	{
-		S->stack[S->top] = x;                                    // 将x赋值给 结点S 的 数组中
-		S->top++;                                                // 执行一次，top+1
+		S->stack[S->top] = x;                        // 将x赋值给 结点S 的 数组中
+		S->top++;                                    // 执行一次，top+1
 		return OK
 	}
 }
@@ -51,30 +51,30 @@ int StackPush(SeqStack *S, DataType x)                       // 入栈
 
 int StackPop(SeqStack *S, DataType *x)                       // 出栈
 {
-	if (S->top <= 0)                                           // 先判断 top 是否为 空
+	if (S->top <= 0)                                     // 先判断 top 是否为 空
 	{
 		printf("堆栈已空，无法出栈！！！\n");
 		return ERROR;
 	}
 	else                        
 	{ 
-		S->top--;                                               // S结构体 下的 top 获取 栈顶至栈底 的下标
-		*x = S->stack[S->top];                                  // 通过 指针 获取数据，返回 相应值
+		S->top--;                                    // S结构体 下的 top 获取 栈顶至栈底 的下标
+		*x = S->stack[S->top];                       // 通过 指针 获取数据，返回 相应值
 		return OK;  
 	}
 }
 
 
-int StackGetTop(SeqStack *S, DataType *x)                   // 获取 栈顶 元素
+int StackGetTop(SeqStack *S, DataType *x)                    // 获取 栈顶 元素
 {
-	if (S->top <= 0)                                          // 先判断 top 是否为 空
+	if (S->top <= 0)                                     // 先判断 top 是否为 空
 	{
 		printf("堆栈已空！！！\n");
 			return ERROR;
 	}
 	else
 	{
-		*x = S->stack[S->top - 1];                               // 找到 数组栈顶 的 下标 [top-1]
+		*x = S->stack[S->top - 1];                   // 找到 数组栈顶 的 下标 [top-1]
 		return 1;
 	}
 }
