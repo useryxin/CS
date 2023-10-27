@@ -354,8 +354,7 @@ int main(){
 }
 ```
 
-<img src="D:\Note\MD笔记\Image\image-20230827110655671.png" alt="image-20230827111017889" style="zoom: 33%;" />
-
+![](https://github.com/useryxin/CS/blob/main/Image/image-20230827110655671.png)
 
 
 ```c
@@ -1059,7 +1058,7 @@ int main(){
 ​	FILE* pf是一个指向FILE类型数据的指针变量。可以使pf指向某个文件的文件信息区（是一个结构体变量）。通过该文件信息区中的信息就能够访问该文件。也就是说，通过文件指针变量能够找到与它关联的文件。
 ​        
 
-<img src="D:\Note\MD笔记\Image\file1.png" alt="image-20230827111017889" style="zoom: 60%;" />
+![](https://github.com/useryxin/CS/blob/main/Image/file1.png)
 
 ```c
 文件读写
@@ -1850,7 +1849,7 @@ p_func_array func_array_2[5];
 
 回调函数就是一个通过函数指针调用的函数。如果你把函数的指针（地址）作为参数传递给另一个函数，当这个指针被用来调用其所指向的函数时，我们就说这是回调函数。回调函数不是由该函数的实现方直接调用，而是在特定的事件或条件发生时由另外的一方调用的，用于对该事件或条件进行响应。
 
-![](D:\Note\MD笔记\Image\Function.png)
+![](https://github.com/useryxin/CS/blob/main/Image/Function.png)
 
 
 
