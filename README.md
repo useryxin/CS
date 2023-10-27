@@ -6,3 +6,13 @@
 **This is my email address:  📮`:yangxin@dwjq1006.onexmail.com`**
 
 ![](https://github.com/useryxin/CS/blob/main/Image/lucas-k-wQLAGv4_OYs-unsplash.png)
+
+###### Classification of documents
+
+The "Code" file contains a large number of code connections between data institutions and algorithms, which can be basically executed.
+
+The "Image" file contains the images needed for the entire project and is not very useful.
+
+The "Node" folder is my notes, which records the notes I wrote, including the principle of computer composition, data structure and algorithm, basic knowledge of C language and other markdown type notes, which can be viewed on GitHub.
+
+The "References" folder is a collection of books I recommend, which can help us improve our knowledge quickly.
