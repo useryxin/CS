@@ -7,11 +7,12 @@
 
 ![](https://github.com/useryxin/CS/blob/main/Image/lucas-k-wQLAGv4_OYs-unsplash.png)
 
-###### Classification of documents
+##### Classification of documents
 
-The "Code" file contains a large number of code connections between data institutions and algorithms, which can be basically executed.
+1. The "Code" file contains a large number of code connections between data institutions and algorithms, which can be basically executed.
 
-The "Image" file contains the images needed for the entire project and is not very useful.
+2. The "Image" file contains the images needed for the entire project and is not very useful.
 
-The "Node" folder is my notes, which records the notes I wrote, including the principle of computer composition, data structure and algorithm, basic knowledge of C language and other markdown type notes, which can be viewed on GitHub.
+3. The "Node" folder is my notes, which records the notes I wrote, including the principle of computer composition, data structure and algorithm, basic knowledge of C language and other markdown type notes, which can be viewed on GitHub.
 
+4. The "References" folder is what I think should be recommended, it will make you more powerful.
