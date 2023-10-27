@@ -1,5 +1,4 @@
-  **1、CS This is a Chinese sophomore majoring in computer science and technology. He created a study notebook to record his learning of data structures and algorithms and the principles of computer organization.​     
-  2、Hello, this is my code space. The original intention is to facilitate me to have a better plan for my learning progress. If you also think that the content I provide is of high quality or there are mistakes in the content, I hope you can give me some suggestions.**
-      \[📮`:yangxin@dwjq1006.onexmail.com`]
+  **Hello, this is a concise note created by a Chinese university student majoring in Computer Science and Technology, utilizing GitHub as a platform to document his study of data structures, algorithms, and computer organization principles.  The primary objective of this endeavor is to facilitate review of the learning materials at any given time and establish a more effective learning plan.  If you find any errors or have suggestions for improving the content I provide, please kindly share them with me.  Wishing you a fulfilling life!**
+      \**This is my email address:**[📮`:yangxin@dwjq1006.onexmail.com`]
 
 ![](https://github.com/useryxin/CS/blob/main/Image/lucas-k-wQLAGv4_OYs-unsplash.png)
